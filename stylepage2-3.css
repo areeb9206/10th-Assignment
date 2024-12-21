@@ -1,83 +1,85 @@
-body{
-    margin-left: 0%;
-    text-align: justify;
-    margin-top: 0%;
+body {
+  margin-left: 0vh;
+  text-align: justify;
+  margin-top: 0%;
+  background-color: #ddd9d9;
 }
-p{
-    margin-top: 3px;
-    margin-bottom: 3px;
+.page-fit {
+  margin-left: 1vh;
 }
-h1{
-    margin-bottom: 10px;
-    text-decoration: underline;
-    margin-top: 3px;
+p {
+  margin-top: 3px;
+  margin-bottom: 3px;
 }
-a{
- 
-    color: blue;
+h1 {
+  margin-bottom: 10px;
+  text-decoration: underline;
+  margin-top: 3px;
 }
-
-.para-fit{
-    justify-content: flex-start;
-    width: 70%;
+a {
+  color: blue;
 }
 
-.list-fix{
-    margin-top: 0px;
-    margin-left: 8px;
-}
-.side-para-fit{
-    width: 30%;
-    display: flex;
-    justify-content: flex-end;
-    text-align: justify;
-    padding: 10px;
-}
-.main{
-    display: flex;
-    margin-left: 10px;
+.para-fit {
+  justify-content: flex-start;
+  width: 70%;
 }
 
-.image-fix{
-    width: 140px;
-    
+.list-fix {
+  margin-top: 0px;
+  margin-left: 8px;
 }
-.list-set{
-    margin-left: 20px;
+.side-para-fit {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  text-align: justify;
+  padding: 10px;
 }
-.heading-fix{
-    margin-top: 0%;
-    margin-bottom: 0%;
+.main {
+  display: flex;
+  margin-left: 10px;
 }
-li{
-    list-style: armenian;
+
+.image-fix {
+  width: 140px;
 }
-.top-head{
-display: block;
-padding: 10px;
-width: 100%;
-background-color: #d3d3d3;
-margin: 0% 0% 0% 0%;
+.list-set {
+  margin-left: 20px;
 }
-.dot1{
-    height: 25px;
-    width: 25px;
-    background-color: #ec0a0a;
-    border-radius: 50%;
-    display: inline-block;
-    color: red;
-  }
-  .dot2{
-    height: 25px;
-    width: 25px;
-    background-color: #148505;
-    border-radius: 50%;
-    display: inline-block;
-  }
-  .dot3{
-    height: 25px;
-    width: 25px;
-    background-color: #e0d209;
-    border-radius: 50%;
-    display: inline-block;
-  }
+.heading-fix {
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+li {
+  list-style: armenian;
+}
+.top-head {
+  display: block;
+  padding: 10px;
+  width: 100%;
+  background-color: #a8a4a4;
+  margin: 0% 0% 0% 0%;
+}
+.dot1 {
+  height: 25px;
+  width: 25px;
+  background-color: #ec0a0a;
+  border-radius: 50%;
+  display: inline-block;
+  color: red;
+}
+.dot2 {
+  height: 25px;
+  width: 25px;
+  background-color: #148505;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot3 {
+  height: 25px;
+  width: 25px;
+  background-color: #e0d209;
+  border-radius: 50%;
+  display: inline-block;
+}
