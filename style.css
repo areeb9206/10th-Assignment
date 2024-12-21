@@ -3,8 +3,12 @@
   padding: 0;
   font-family: sans-serif;
   box-sizing: border-box;
-  font-size: 14px;
-  color: #555;
+  font-size: 16px;
+  color: #ffffff;
+  
+}
+header{
+  margin-top: 10px;
 }
 
 body {
@@ -15,6 +19,12 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
+.bg-img{
+  background-image: url(Images/background-2.jpg);
+  background-repeat: no-repeat;
+  
+  background-size: 100%;
+}
 
 nav {
   display: flex;
@@ -23,8 +33,9 @@ nav {
   height: 50px;
 }
 .logo{
-    width: 250px;
+    width: 350px;
     margin-top: 100px;
+    background-color: transparent;
 }
 
 
@@ -42,11 +53,12 @@ li {
 a {
   text-decoration: none;
   
+  
 }
 
 li a:hover {
   text-decoration: underline;
-  color: black;
+  color: rgb(77, 175, 39);
 }
 
 .menu-bg {
@@ -64,7 +76,7 @@ li a:hover {
  .menu-button:hover {
   background-color: rgb(99, 98, 98, 0.1);
   cursor: pointer;
-  color: black;
+  color: rgb(255, 255, 255);
 } 
 
 .search-wrapper {
@@ -86,27 +98,25 @@ input {
   border: 1px solid #a3a0a0;
   border-radius: 50px;
   outline: 1px solid #d3d3d3;
+  color: black;
 }
-
 input:hover {
   box-shadow: 0 1px 5px 1px rgb(187, 187, 187);
 }
 input:focus {
   outline: none;
 }
-.search {
-  width: 18px;
+.fa-magnifying-glass {
   position: absolute;
   top: 15px;
   left: 15px;
   background-color: transparent;
 }
 
-.mic {
-  width: 15px;
-  position: absolute;
-  top: 12px;
-  left: 540px;
+.fa-microphone {
+ position: absolute;
+  top: 15px;
+  left: 550px;
   background-color: transparent;
 }
 
@@ -116,21 +126,25 @@ input:focus {
   margin-top: 30px;
   justify-content: center;
   display: flex;
-  gap: 15px;
+  gap: 15px
 }
 
 button:hover {
   border: 1px solid #eee;
   box-shadow: 0 1px 2px 1px rgb(170, 168, 168);  cursor: pointer;
-  color: black;
 }
 button a:hover{
-    color: black;
+    color: rgb(77, 175, 39);
+
+}
+button a{
+  font-size: 15px;
 }
 
 .main-button {
   padding: 8px 12px;
   border: none;
-  background-color: #f8f9fa;
+  background-color: #000000;
+  border-radius: 8px;
 }
 
