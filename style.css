@@ -46,11 +46,13 @@ li {
 
 a {
   text-decoration: none;
+  color: #000000;
 }
 
 li a:hover {
   text-decoration: underline;
   color: rgb(77, 175, 39);
+
 }
 
 .menu-bg {
