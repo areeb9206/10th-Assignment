@@ -17,15 +17,9 @@ body {
 
   flex-direction: column;
   justify-content: space-between;
+  background-color: beige;
 }
-.bg-img {
-  background-image: url(Images/freepik__minimalist-winter-scene-with-christmas-tree-orname__97863.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-}
+
 nav {
   display: flex;
   justify-content: space-between;
