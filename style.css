@@ -17,7 +17,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: beige;
+  background-color: rgb(107, 107, 16);
 }
 
 nav {
@@ -85,7 +85,7 @@ form {
 }
 
 input {
-  width: 100vh;
+  width: 580px;
   height: 45px;
   padding-left: 40px;
   font-size: 16px;
@@ -111,7 +111,7 @@ input:focus {
 .fa-microphone {
   position: absolute;
   top: 15px;
-  left: 620px;
+  left: 550px;
   background-color: transparent;
   color: #000000;
 }
